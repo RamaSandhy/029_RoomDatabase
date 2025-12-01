@@ -1,9 +1,12 @@
 package com.example.navigasidengandata.view.uicontroller
 
+import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
+import com.example.navigasidengandata.view.route.DestinasiEntry
+import com.example.navigasidengandata.view.route.DestinasiHome
 
 
 @Composable
@@ -16,3 +19,24 @@ fun SiswaApp(
         modifier = modifier
     )
 }
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun HostNavigasi(
+    navController: NavHostController,
+    modifier: Modifier = Modifier
+) {
+
+    NavHost(
+        navController = navController,
+        startDestination = DestinasiHome.route,
+        modifier = modifier
+    ) {
+
+        composable(DestinasiHome.route) {
+            HomeScreen(
+                navigateToItemEntry = {
+                    navController.navigate(DestinasiEntry.route)
+                }
+            )
+        }
