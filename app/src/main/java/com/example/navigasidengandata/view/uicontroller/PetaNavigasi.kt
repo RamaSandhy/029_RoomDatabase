@@ -5,6 +5,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
+import com.example.navigasidengandata.view.EntrySiswaScreen
 import com.example.navigasidengandata.view.route.DestinasiEntry
 import com.example.navigasidengandata.view.route.DestinasiHome
 
@@ -40,3 +41,10 @@ fun HostNavigasi(
                 }
             )
         }
+        composable(DestinasiEntry.route) {
+            EntrySiswaScreen(
+                navigateBack = { navController.popBackStack() }
+            )
+        }
+    }
+}
