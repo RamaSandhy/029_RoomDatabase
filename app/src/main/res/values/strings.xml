@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Navigasi dengan data</string>
+    <string name="entry_siswa">Entry Siswa</string>
+
+    <string name="detail_siswa">Detail Siswa</string>
+
+    <string name="edit_siswa">Edit Siswa</string>
 </resources>
