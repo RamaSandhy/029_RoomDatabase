@@ -4,8 +4,9 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
+import com.example.navigasidengandata.repositori.RepositoriSiswa
 import com.example.navigasidengandata.room.Siswa
-import com.example.pertemuan9.repositori.RepositoriSiswa
+
 
 class EntryViewModel(private val repositoriSiswa: RepositoriSiswa) : ViewModel() {
 

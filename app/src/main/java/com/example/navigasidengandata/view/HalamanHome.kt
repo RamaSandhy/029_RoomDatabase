@@ -37,7 +37,7 @@ import com.example.navigasidengandata.room.Siswa
 import com.example.navigasidengandata.view.route.DestinasiHome
 import com.example.navigasidengandata.viewmodel.HomeViewModel
 import com.example.navigasidengandata.R
-import com.example.pertemuan9.viewmodel.provider.PenyediaViewModel
+import com.example.navigasidengandata.viewmodel.provider.PenyediaViewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable

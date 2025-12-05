@@ -40,7 +40,7 @@ import com.example.navigasidengandata.view.Route.DestinasiDetailSiswa
 import com.example.navigasidengandata.view.SiswaTopAppBar
 import com.example.navigasidengandata.viewmodel.DetailSiswaUiState
 import com.example.navigasidengandata.viewmodel.DetailViewModel
-import com.example.navigasidengandata.viewmodel.provider.PenyediaViewModel
+import com.example.navigasidengandata.viewmodel.provider.toSiswa
 import com.example.navigasidengandata.viewmodel.toSiswa
 import com.example.pertemuan9.viewmodel.provider.PenyediaViewModel
 import kotlinx.coroutines.launch

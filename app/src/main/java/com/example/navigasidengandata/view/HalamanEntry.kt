@@ -15,7 +15,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.navigasidengandata.view.route.DestinasiEntry
 import com.example.navigasidengandata.viewmodel.provider.EntryViewModel
-import com.example.pertemuan9.viewmodel.provider.PenyediaViewModel
+import com.example.navigasidengandata.viewmodel.provider.PenyediaViewModel
 import kotlinx.coroutines.launch
 
 @OptIn(ExperimentalMaterial3Api::class)
