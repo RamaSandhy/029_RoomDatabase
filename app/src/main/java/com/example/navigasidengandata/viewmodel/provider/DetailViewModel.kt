@@ -1,4 +1,4 @@
-package com.example.pertemuan9.viewmodel
+package com.example.navigasidengandata.viewmodel
 
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
