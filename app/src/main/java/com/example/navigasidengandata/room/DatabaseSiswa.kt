@@ -3,11 +3,12 @@ package com.example.roomdatabase.room
 import android.content.Context
 import androidx.room.Database
 import androidx.room.Room
+import androidx.room.RoomDatabase
 import com.example.navigasidengandata.room.Siswa
 import com.example.navigasidengandata.room.SiswaDao
 
 @Database(entities = [Siswa::class], version = 1, exportSchema = false)
-abstract class DatabaseSiswa : RoomDataBase() {
+abstract class DatabaseSiswa : RoomDatabase() {
     abstract fun siswaDao() : SiswaDao
 
     companion object {
@@ -16,7 +17,7 @@ abstract class DatabaseSiswa : RoomDataBase() {
 
         fun getDataBase(context: Context): DatabaseSiswa {
             return (Instance?: synchronized(this){
-                Room.DatabaseBuilder(
+                Room.databaseBuilder(
                     context, DatabaseSiswa::class.java,
                     "Siswa_Database")
                     .build().also { Instance=it }
