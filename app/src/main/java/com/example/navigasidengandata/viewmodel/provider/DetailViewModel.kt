@@ -3,13 +3,16 @@ package com.example.navigasidengandata.viewmodel
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.pertemuan9.view.Route.DestinasiDetailSiswa
+import com.example.navigasidengandata.repositori.RepositoriSiswa
+import com.example.navigasidengandata.viewmodel.provider.DetailSiswa
+import com.example.navigasidengandata.viewmodel.provider.toDetailSiswa
+import com.example.navigasidengandata.view.Route.DestinasiDetailSiswa
+import com.example.navigasidengandata.viewmodel.provider.toSiswa
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.filterNotNull
 import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
-import com.example.pertemuan9.repositori.RepositoriSiswa
 
 
 class DetailViewModel (
