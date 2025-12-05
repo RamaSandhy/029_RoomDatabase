@@ -5,4 +5,11 @@
     <string name="detail_siswa">Detail Siswa</string>
 
     <string name="edit_siswa">Edit Siswa</string>
+    <string name="nama">Nama</string>
+    <string name="alamat">Alamat</string>
+    <string name="telepon">Telepon</string>
+    <string name="deskripsi_no_item">Tidak ada data siswa. Tekan tombol tambah untuk memasukkan data.</string>
+    <string name="required_field">*Wajib diisi</string>
+    <string name="btn_submit">Simpan</string>
+
 </resources>
