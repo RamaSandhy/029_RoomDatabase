@@ -1,4 +1,4 @@
-package com.example.pertemuan9.repositori
+package com.example.navigasidengandata.repositori
 
 
 import com.example.navigasidengandata.room.Siswa
